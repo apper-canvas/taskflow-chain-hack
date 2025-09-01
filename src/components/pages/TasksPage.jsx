@@ -64,7 +64,7 @@ const TasksPage = () => {
   const applyFilters = () => {
     let filtered = [...tasks];
     
-    // Apply search filter
+// Apply search filter
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase();
       filtered = filtered.filter(task =>

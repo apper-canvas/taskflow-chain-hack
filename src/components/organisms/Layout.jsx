@@ -24,7 +24,7 @@ const Layout = () => {
     }
   };
 
-  const loadTaskCounts = async () => {
+const loadTaskCounts = async () => {
     try {
       const allTasks = await tasksService.getAll();
       const activeTasks = allTasks.filter(task => !task.archived);

@@ -14,7 +14,7 @@ const TaskForm = ({
   loading = false 
 }) => {
   const [formData, setFormData] = useState({
-    title: task?.title || "",
+title: task?.title || "",
     description: task?.description || "",
     categoryId: task?.categoryId || (categories[0]?.Id.toString() || ""),
     priority: task?.priority || "medium",

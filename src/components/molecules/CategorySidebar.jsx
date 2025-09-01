@@ -44,7 +44,7 @@ const CategorySidebar = ({ categories, taskCounts, className = "" }) => {
                 <div className="flex items-center gap-3">
                   <div 
                     className="w-3 h-3 rounded-full flex-shrink-0"
-                    style={{ backgroundColor: category.color }}
+style={{ backgroundColor: category.color }}
                   />
                   <ApperIcon name={category.icon} className="w-4 h-4" />
                   <span>{category.name}</span>

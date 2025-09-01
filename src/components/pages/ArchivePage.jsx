@@ -220,7 +220,7 @@ const ArchivePage = () => {
                 
                 <div className="flex-1 min-w-0">
                   <h3 className="font-medium text-gray-900 mb-1">
-                    {task.title}
+{task.title}
                   </h3>
                   {task.description && (
                     <p className="text-sm text-gray-600 mb-2">

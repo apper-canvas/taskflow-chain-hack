@@ -16,7 +16,7 @@ const TaskCard = ({
 }) => {
   const [isCompleting, setIsCompleting] = useState(false);
   
-  const dueDateInfo = task.dueDate ? formatDueDate(task.dueDate) : null;
+const dueDateInfo = task.dueDate ? formatDueDate(task.dueDate) : null;
   
   const handleToggleComplete = async () => {
     setIsCompleting(true);
